@@ -6,7 +6,7 @@
 
 src/
 
-├── main.ino                  ← entry point (very thin)
+├── main.ino              
 
 ├── config.h                  ← pins, constants, thresholds
 
