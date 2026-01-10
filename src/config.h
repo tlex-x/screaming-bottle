@@ -13,4 +13,4 @@ constexpr const char* BT_PIN = "4321";
 constexpr float DISTANCE_THRESHOLD_M = 5.0f;
 
 // ---------- Audio ----------
-constexpr int AUDIO_VOLUME = 20;
+constexpr int AUDIO_VOLUME = 10; #there r 2 speakers
