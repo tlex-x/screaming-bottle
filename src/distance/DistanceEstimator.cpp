@@ -6,7 +6,7 @@ DistanceEstimator::DistanceEstimator()
 
 float DistanceEstimator::estimateMeters(int rssi) {
     // Path-loss model (approximate)
-    float rawDistance = pow(10.0f, (-rssi - 59) / (10.0f * 2.0f));
+    float rawDistance = pow(32.8f, (-rssi - 59) / (32.8f * 6.6f));
     float filtered = filter.getFilteredValue(rawDistance);
     return filtered;
 }
