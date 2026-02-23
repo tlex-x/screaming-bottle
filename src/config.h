@@ -10,7 +10,7 @@ constexpr const char* BT_DEVICE_NAME = "ESP32_Device";
 constexpr const char* BT_PIN = "4321";
 
 // ---------- Distance ----------
-constexpr float DISTANCE_THRESHOLD_M = 5.0f;
+constexpr float DISTANCE_THRESHOLD_M = 16.4f;
 
 // ---------- Audio ----------
 constexpr int AUDIO_VOLUME = 10; //there r 2 speakers
